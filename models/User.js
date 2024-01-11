@@ -20,13 +20,17 @@ const userSchema = new Schema(
                 ref: 'Thought',
             },
         ],
-    // friends: {NEED TO ADD}
+        friends: {
+            type: Array,
+            
+        }
     },
     {
         toJSON: {
             getters: true,
             virtuals: true,
         },
+        id: false,
     }
 );
 
