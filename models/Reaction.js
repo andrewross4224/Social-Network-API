@@ -1,8 +1,8 @@
 const { Schema } = require('mongoose');
 const { ObjectId } = require('mongodb')
 
-const formatDate = (time) => {
-    return time.toLocalString()
+const formatDate = (date) => {
+    return date.toLocaleString()
 }
 
 const reactionSchema = new Schema(
@@ -23,7 +23,7 @@ const reactionSchema = new Schema(
         createdAt: {
             type: Date,
             default: Date.now,
-            get: time => formatDate(time)
+            get: (date) => formatDate(date)
         }
     },
     {
