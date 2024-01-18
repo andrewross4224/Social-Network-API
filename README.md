@@ -15,7 +15,7 @@ To use this app clone the github repo onto your computer and run 'npm i'</br>
 Then run 'npm start' and use insomnia to hit api enpoints listed under the routes folder
 # Usage
 This server should be used to keep Users, comments, and reactions of your website organized and connected</br>
-For a walkthrough of functionality see this video : https://drive.google.com/file/d1fMQkR9CTn5mFxw46qvkgTBPMxUggvZo7/view
+For a walkthrough of functionality see this video : https://drive.google.com/file/d/1YwzbVTGQ7faADAz8ChyD_QGDBeZ4g9D4/view
 # License
 This project is covered under the MIT License the link for the license can be found below.
 https://opensource.org/licenses/MIT
